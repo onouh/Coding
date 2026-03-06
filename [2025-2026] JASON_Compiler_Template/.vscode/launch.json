@@ -1,16 +1,40 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "version": "0.2.0",
+      "configurations": [
         {
-            "name": "C#: Debug Active File",
-            "type": "dotnet",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net10.0/${workspaceFolderBasename}.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "console": "internalConsole"
+          "name": "Run JASON Compiler",
+          "type": "debugpy", // We use this as a 'dummy' to trigger the terminal or...
+          "request": "launch",
+          "purpose": "vsls-type-agnostic",
+          "program": "dotnet",
+          "args": [
+            "run"
+          ],
+          "cwd": "${workspaceFolder}/JASON_Compiler",
+          "console": "integratedTerminal",
+          "internalConsoleOptions": "neverOpen"
         }
-    ]
+      ]
+    },
+    {
+      "name": ".NET Launch (Project)",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/JASON_Compiler/JASON_Compiler.csproj"
+    },
+    {
+      "name": ".NET Launch (coreclr fallback)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/JASON_Compiler",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
 }

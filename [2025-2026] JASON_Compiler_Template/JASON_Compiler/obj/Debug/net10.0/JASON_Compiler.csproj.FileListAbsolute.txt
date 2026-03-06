@@ -1,0 +1,13 @@
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.dll.config
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.deps.json
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.runtimeconfig.json
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.dll
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.pdb
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/JASON_Compiler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/JASON_Compiler.csproj.CoreCompileInputs.cache
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/JASON_Compiler.dll
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/refint/JASON_Compiler.dll
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/JASON_Compiler.pdb
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/JASON_Compiler.genruntimeconfig.cache
+/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/Debug/net10.0/ref/JASON_Compiler.dll

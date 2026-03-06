@@ -1,22 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace JASON_Compiler
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Console.WriteLine("=====================================");
+            Console.WriteLine("   JASON COMPILER - Mac Debug Mode   ");
+            Console.WriteLine("=====================================");
+
+            // Example JASON code to test
+            string testCode = "IF x = 5 THEN WRITE x";
+
+            Console.WriteLine($"\nScanning code: {testCode}");
+
+            Scanner scanner = new Scanner();
+            scanner.StartScanning(testCode);
+
+            // Display results from the List inside the scanner
+            Console.WriteLine("\n--- Resulting Tokens ---");
+            if (scanner.Tokens.Count == 0)
+            {
+                Console.WriteLine("No tokens found yet. (Make sure your IF statements in Scanner.cs are implemented!)");
+            }
+            else
+            {
+                foreach (var token in scanner.Tokens)
+                {
+                    Console.WriteLine($"Lexeme: {token.lex} | Type: {token.token_type}");
+                }
+            }
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
         }
     }
 }
