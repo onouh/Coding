@@ -34,7 +34,7 @@ namespace JASON_Compiler
             }
 
             Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
