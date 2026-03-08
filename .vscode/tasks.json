@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/[2025-2026] JASON_Compiler_Template/JASON_Compiler.sln",
+                "${workspaceFolder}/JASON_Compiler_Template/JASON_Compiler.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/[2025-2026] JASON_Compiler_Template/JASON_Compiler.sln",
+                "${workspaceFolder}/JASON_Compiler_Template/JASON_Compiler.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
