@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj": {}
+    "/Users/ONouh/Downloads/Coding/JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj": {}
   },
   "projects": {
-    "/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj": {
+    "/Users/ONouh/Downloads/Coding/JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj",
+        "projectUniqueName": "/Users/ONouh/Downloads/Coding/JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj",
         "projectName": "JASON_Compiler",
-        "projectPath": "/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj",
+        "projectPath": "/Users/ONouh/Downloads/Coding/JASON_Compiler_Template/JASON_Compiler/JASON_Compiler.csproj",
         "packagesPath": "/Users/ONouh/.nuget/packages/",
-        "outputPath": "/Users/ONouh/Downloads/Coding/[2025-2026] JASON_Compiler_Template/JASON_Compiler/obj/",
+        "outputPath": "/Users/ONouh/Downloads/Coding/JASON_Compiler_Template/JASON_Compiler/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ONouh/.nuget/NuGet/NuGet.Config"
