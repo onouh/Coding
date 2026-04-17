@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "gdb",
+      "request": "attach",
+      "name": "Run FOS",
+      "executable": "obj/kern/kernel",
+      "target": ":26000",
+      "remote": true,
+      "cwd": "${workspaceRoot}/FOS",
+      "gdbpath": "/opt/cross/bin/i386-elf-gdb",  // <--- Add this line
+      "preLaunchTask": "build-debug"
+    
+    },
+    // {
+    //   "name": "C++/Clang: Build and Run",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    // "program": "${fileDirname}/${fileBasenameNoExtension}",
+    //   "args": [],
+    //   "stopAtEntry": false,
+    //   "cwd": "${fileDirname}",
+    //   "environment": [],
+    //   "externalConsole": false,
+    //   "MIMode": "lldb",
+    //   "preLaunchTask": "C/C++: clang++ build active file"
+    // },
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
+      "name": "Jason Compiler",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/Compilers_JASON/JASON_Compiler_Template/JASON_Compiler/bin/Debug/net10.0/JASON_Compiler.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Compilers_JASON/JASON_Compiler_Template/JASON_Compiler",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "SQL Database",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/DataBase_SQL/bin/Debug/net10.0/NorthWind.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/DataBase_SQL",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}
